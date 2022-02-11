@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ayush</h1>
+    </div>
+<script>
+  let jsonOBj = {
+      name:"Ayush",
+      Salary:"70k",
+      friend:"Raj",
+      food:"Paneer"
+  }
+  console.log(jsonOBj);
+  let objJson = JSON.stringify(jsonOBj); // Use this function to convert onject into string.
+  console.log(objJson);
+  //Replace Method
+  objJson = objJson.replace("Ayush" , "Hero");
+  console.log(objJson)
+  // parse Method
+  newJsonObj = JSON.parse(objJson);
+  console.log(newJsonObj); // Use this function to convert string into object.
+</script>
+</body>
+</html>
