@@ -8,5 +8,3 @@ console.log(ayush);
 console.log(ayush.length);
 console.log(ayush.sort()); // Decrease to increase;
 console.log(ayush.push("Extra","ab"));  // Length m add kardega extra element;
-
-
